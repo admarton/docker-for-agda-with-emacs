@@ -1,4 +1,4 @@
-FROM haskell
+FROM haskell:9.6
 
 # Check GHC and Cabal
 RUN ghc --version
